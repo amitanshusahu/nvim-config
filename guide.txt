@@ -1,0 +1,3 @@
+#Important Commands and Shortuts
+> :call CocAction("toogleService", "tsserver or css or any cos service")
+> make changes in the coc-settings.json to enable a specific server for a specific file
