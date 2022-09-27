@@ -13,3 +13,4 @@ let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="-"
 nnoremap <C-s> :w<CR>
 nnoremap <C-x> :q<CR>
+let g:user_emmet_leader_key='<C-Y>'
