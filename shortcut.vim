@@ -4,6 +4,7 @@
 " gT - goes to previous tab
 " <tab no. from left>gt - goes to the tab no.
 " / or ? - will find
+" ctr + s to save
 
 
 nmap <F8> :TagbarToggle<CR>
@@ -11,3 +12,4 @@ nnoremap <C-e> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="-"
 nnoremap <C-s> :w<CR>
+nnoremap <C-x> :q<CR>

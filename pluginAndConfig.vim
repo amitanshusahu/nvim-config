@@ -13,6 +13,7 @@ Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 "For WebDev
 Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 Plug 'https://github.com/pangloss/vim-javascript' "javascript syntas highlighter
+Plug 'https://github.com/mattn/emmet-vim' "emmet for html
 
 call plug#end()
 
