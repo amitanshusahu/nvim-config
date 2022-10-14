@@ -5,7 +5,7 @@ set mouse=v                 " middle-click paste with
 set tabstop=4               " number of columns occupied by a tab 
 set expandtab               " converts tabs to white space
 set shiftwidth=4            " width for autoindents
-set autoindent              " indent a new line the same amount as the line just typed
+" set autoindent              " indent a new line the same amount as the line just typed
 set number                  " add line numbers
 set mouse=a                 " enable mouse 
 :set completeopt-=preview " For No Previews

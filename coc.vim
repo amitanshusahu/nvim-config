@@ -48,6 +48,10 @@ if has('nvim')
 " coc-css
 " coc-tsserver
 " coc-styled-component
+" coc-emmet
+" coc-prettier
+" coc-pairs
+
 
 " --- Just Some Notes ---
 "  " :CocInstall coc-python
