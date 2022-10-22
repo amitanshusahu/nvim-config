@@ -1,9 +1,10 @@
 call plug#begin()
 
 " For neovim ui
-Plug 'https://github.com/vim-airline/vim-airline'  "vim airline - the down tab
-Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons - works only when nerd fonts are installed
+Plug 'https://github.com/nvim-lualine/lualine.nvim' " nvim status bar - the down tab
+Plug 'https://github.com/nvim-tree/nvim-web-devicons' " Developer Icons - works only when nerd fonts are installed
 Plug 'https://github.com/Mofiqul/dracula.nvim' "color theme dracula
+Plug 'https://github.com/romgrk/barbar.nvim' "tabline in the top
 
 " For Utils (file explorer, terminal, tagbar, commenting)
 Plug 'https://github.com/preservim/nerdtree' " NerdTree - file explorer
@@ -26,3 +27,6 @@ source /home/uchiha-siyan/.config/nvim/dracula.vim
 
 "Config for indent-blankline
 source /home/uchiha-siyan/.config/nvim/indent-blankline.lua
+
+"Config for status tab - down 
+source /home/uchiha-siyan/.config/nvim/lualine.nvim
